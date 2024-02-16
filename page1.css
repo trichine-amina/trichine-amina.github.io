@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+    color: aliceblue;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color:maroon
+  
+}
+a{
+    background-color: maroon;
+    color: aliceblue;
+    text-decoration-line: none;
+    font-size: 30px;
+   font-weight: bolder;
+}
+.content
+{
+   margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-grow: 1;
+    
+    
+}
+.content div{
+    
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+   box-shadow: 5px 8px 5px black ;
+   
+
+}
+footer p
+{
+   font-size: 1.25rem;
+    color: maroon;
+    
+}
+footer{
+    
+    padding: 10px;
+    text-align: center;
+}
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.content div :hover{
+    color: rgb(60, 119, 143);
+}

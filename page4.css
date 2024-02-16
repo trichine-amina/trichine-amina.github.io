@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+    color: aliceblue;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color:maroon
+  
+}
+
+footer
+{
+    display: flex;
+    margin-top: auto;
+
+  
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100vh;
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+    flex: 1;
+    height: 100%;
+    
+}
+main h2{
+    color:  maroon;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+ }
+ main form p{
+    color: maroon;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    font-weight: bold;
+    margin-left: 10px;
+ }
+main form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid maroon;
+    padding: 10px;
+    gap: 10px;
+    color: maroon;
+}
+ main label
+ {
+    color: maroon;
+    font-size: 1.25rem;
+    margin-left: 10px;
+    
+ }
+ main input
+ {
+    color: maroon;
+    padding: 5px 70px 5px 5px;
+    border-radius: 5px;
+    border-color: maroon;
+    border: 3px solid maroon;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+ }
+ main form input[type="radio"]
+ {
+    margin: 0;
+    margin-top: 20px;
+
+ }
+ main form input [type="checkbox"]
+ {
+    margin-top: 0;
+ }
+form button 
+{
+   padding: 10px 22px;
+   background-color: maroon;
+   border-radius: 5px;
+   border-color: maroon;
+ }
+ form a 
+{
+   padding: 10px 21px;
+   background-color: maroon;
+   border-radius: 5px;
+   text-decoration-line: none;
+   border-color: maroon;
+   
+}
+.buttonsdiv
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+
+}
+form button:hover{
+    cursor: pointer;
+}
+
+footer p
+{
+   font-size: 1.25rem;
+    color: maroon;
+}
+footer{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.button4 :hover{
+    color: rgb(60, 119, 143);
+}
